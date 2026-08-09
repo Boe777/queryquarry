@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Data files, downloaded not authored
+data/*.sql
+data/*.zip
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
