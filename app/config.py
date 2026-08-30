@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     database_url: str
     database_admin_url: str = ""
     groq_api_key: str = ""
+    groq_model: str = "openai/gpt-oss-120b"
 
 
 @lru_cache

@@ -19,7 +19,7 @@ validator is the first line of defence rather than the only one.
 | Layer | Choice |
 | --- | --- |
 | Agent | LangGraph |
-| Model | Llama 3.3 70B via Groq |
+| Model | GPT-OSS 120B via Groq |
 | Database | Neon Postgres |
 | API | FastAPI |
 | Interface | Streamlit |
